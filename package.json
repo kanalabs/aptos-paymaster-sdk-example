@@ -1,0 +1,23 @@
+{
+  "name": "aptos-paymaster-sdk-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@aptos-labs/ts-sdk": "^1.35.0",
+    "@kanalabs/paymaster-sdk": "^0.1.5",
+    "dotenv": "^16.4.7"
+  }
+}
