@@ -1,6 +1,6 @@
 import 'dotenv/config';
-import { Account, Network, PendingTransactionResponse, TransactionPayload } from '@aptos-labs/ts-sdk'
-;import { PaymasterSdk, TransactionOptions } from '@kanalabs/paymaster-sdk';
+import { Account, Network, PendingTransactionResponse, TransactionPayload } from '@aptos-labs/ts-sdk';
+import { PaymasterSdk, TransactionOptions } from '@kanalabs/paymaster-sdk';
 (async () => {
   const testProjectKey = process.env.PROJECT_KEY as string
   // const testPrivateKey = process.env.PRIVATE_KEY as string
